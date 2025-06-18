@@ -52,10 +52,10 @@ const CourseProgram = () => {
               className="bg-white rounded-xl p-8 shadow-sm border border-gray-100"
             >
               <div className="flex items-center mb-4">
-                <div className="flex items-center justify-center w-8 h-8 bg-purple-600 text-white rounded-full text-sm font-semibold mr-3">
+                <div className="flex items-center justify-center w-8 h-8 bg-orange-500 text-white rounded-full text-sm font-semibold mr-3">
                   {index + 1}
                 </div>
-                <span className="text-sm text-purple-600 font-medium">
+                <span className="text-sm text-orange-500 font-medium">
                   {step.week}
                 </span>
               </div>

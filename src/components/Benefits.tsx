@@ -1,35 +1,43 @@
-import { Code, Palette, Gamepad2, Users, Clock, Trophy } from "lucide-react";
+import {
+  Zap,
+  GraduationCap,
+  Target,
+  BookOpen,
+  Users,
+  Trophy,
+} from "lucide-react";
 
 const benefits = [
   {
-    icon: Code,
-    title: "Программирование",
-    description: "Python, JavaScript, создание игр и веб-сайтов",
+    icon: Zap,
+    title: "Мощный старт",
+    description: "Заложи базу знаний летом, чтобы в учебном году было легче",
   },
   {
-    icon: Palette,
-    title: "Дизайн",
-    description: "Графический дизайн, UI/UX, 3D-моделирование",
+    icon: GraduationCap,
+    title: "Опытные преподаватели",
+    description: "Получай знания от лучших экспертов ЕГЭ/ОГЭ",
   },
   {
-    icon: Gamepad2,
-    title: "Геймдизайн",
-    description: "Создание игр в Unity и Roblox Studio",
+    icon: Target,
+    title: "Эффективная программа",
+    description: "Интенсивная подготовка по всем темам экзамена",
+  },
+  {
+    icon: BookOpen,
+    title: "Практика и разбор ошибок",
+    description: "Решай много заданий и учись на своих ошибках",
   },
   {
     icon: Users,
-    title: "Малые группы",
-    description: "До 8 человек в группе для лучшего усвоения",
-  },
-  {
-    icon: Clock,
-    title: "Гибкий график",
-    description: "Занятия в удобное время, записи всех уроков",
+    title: "Поддержка и мотивация",
+    description:
+      "Будь в команде единомышленников и получай поддержку от кураторов",
   },
   {
     icon: Trophy,
-    title: "Сертификат",
-    description: "Официальный сертификат по завершении курса",
+    title: "Результат",
+    description: "Начни готовиться заранее и повысь свои шансы на высокий балл",
   },
 ];
 
@@ -39,7 +47,7 @@ const Benefits = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-            Почему выбирают нас
+            Почему выбирают нас?
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Современные методики обучения и опытные преподаватели помогут вашему
@@ -53,9 +61,9 @@ const Benefits = () => {
             return (
               <div
                 key={index}
-                className="text-center p-6 rounded-xl bg-purple-50 hover:bg-purple-100 transition-colors"
+                className="text-center p-6 rounded-xl bg-orange-50 hover:bg-orange-100 transition-colors"
               >
-                <div className="inline-flex items-center justify-center w-16 h-16 bg-purple-600 text-white rounded-full mb-4">
+                <div className="inline-flex items-center justify-center w-16 h-16 bg-orange-500 text-white rounded-full mb-4">
                   <Icon size={24} />
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">

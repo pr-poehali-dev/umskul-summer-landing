@@ -13,7 +13,7 @@ const CTA = () => {
         </div>
 
         <h2 className="text-3xl lg:text-4xl font-bold text-white mb-4">
-          Запишитесь сейчас и получите скидку 30%
+          Запишитесь сейчас и получите скидку 15%
         </h2>
 
         <p className="text-xl text-orange-100 mb-8 max-w-2xl mx-auto">
